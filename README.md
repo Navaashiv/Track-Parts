@@ -1,6 +1,6 @@
 **How to Contribute?**
 
-For Development purposes.
+## **For Development purposes.**
 
 Pick an Issue
 
@@ -16,7 +16,7 @@ After completing the work on the issue, Pull changes from your Org.
 
 Publish the modified issue branch and create a Pull Request for QA.
 
-**For QA purposes.**
+## **For QA purposes.**
 
 Review the Pull Request.
 
@@ -30,7 +30,7 @@ Upon satisfactory result, merge the Pull Request to the QA branch.
 
 Lastly create a Pull Request to merge the QA Branch to UAT branch.
 
-**For Production purposes.**
+## **For Production purposes.**
 
 Review the Pull Request for the UAT branch.
 
