@@ -9,6 +9,10 @@
 		<name>CustomApplication</name>
 	</types>
 	<types>
+		<members>Purchase__c.Actual_Rate_buyed__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
 		<members>Purchase__c</members>
 		<name>CustomObject</name>
 	</types>
@@ -19,6 +23,10 @@
 	<types>
 		<members>Track_Parts_UtilityBar</members>
 		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>Purchase__c-Purchase Layout</members>
+		<name>Layout</name>
 	</types>
 	<types>
 		<members>Admin</members>
