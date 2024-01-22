@@ -9,7 +9,14 @@
 		<name>CustomApplication</name>
 	</types>
 	<types>
+		<members>Purchase__c.Account__c</members>
 		<members>Purchase__c.Actual_Rate_buyed__c</members>
+		<members>Purchase__c.Drive_url__c</members>
+		<members>Purchase__c.Invoice_Number__c</members>
+		<members>Purchase__c.Product_image__c</members>
+		<members>Purchase__c.Quantity__c</members>
+		<members>Purchase__c.Sell_Rate__c</members>
+		<members>Purchase__c.Total_Amount_Bought__c</members>
 		<name>CustomField</name>
 	</types>
 	<types>
@@ -21,12 +28,18 @@
 		<name>CustomTab</name>
 	</types>
 	<types>
+		<members>Purchase_Record_Page</members>
+		<members>Purchase_Record_Page1</members>
 		<members>Track_Parts_UtilityBar</members>
 		<name>FlexiPage</name>
 	</types>
 	<types>
 		<members>Purchase__c-Purchase Layout</members>
 		<name>Layout</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>LightningComponentBundle</name>
 	</types>
 	<types>
 		<members>Admin</members>

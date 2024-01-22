@@ -1,0 +1,12 @@
+<template>
+    <lightning-file-upload
+        label="Upload Photo"
+        name={imageFile}
+        accept={acceptedFormats}
+        record-id={myRecordId}
+        file-field-name="Guest_Record_fileupload__c"
+        onuploadfinished={handleUploadFinished}
+        multiple
+    >
+    </lightning-file-upload>
+</template>

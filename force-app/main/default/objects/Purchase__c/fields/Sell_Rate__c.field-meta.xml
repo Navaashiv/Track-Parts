@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Actual_Rate_buyed__c</fullName>
+    <fullName>Sell_Rate__c</fullName>
+    <description>divya automobiles want to sell rate</description>
     <externalId>false</externalId>
-    <label>Actual Rate Bought</label>
+    <label>Sell Rate</label>
     <precision>12</precision>
     <required>false</required>
     <scale>2</scale>
