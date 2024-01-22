@@ -28,9 +28,7 @@
 		<name>CustomTab</name>
 	</types>
 	<types>
-		<members>Purchase_Record_Page</members>
 		<members>Purchase_Record_Page1</members>
-		<members>Track_Parts_UtilityBar</members>
 		<name>FlexiPage</name>
 	</types>
 	<types>
