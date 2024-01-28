@@ -4,6 +4,7 @@
 		<members>DeleteContent</members>
 		<members>ImgbbImageUploader</members>
 		<members>PurchaseController</members>
+		<members>PurchaseDetails</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
@@ -35,6 +36,7 @@
 	</types>
 	<types>
 		<members>Purchase_Record_Page1</members>
+		<members>Sales_App</members>
 		<name>FlexiPage</name>
 	</types>
 	<types>
@@ -42,6 +44,8 @@
 		<name>Layout</name>
 	</types>
 	<types>
+		<members>fetchChildDetails</members>
+		<members>fetchDetails</members>
 		<members>fileUploader</members>
 		<name>LightningComponentBundle</name>
 	</types>

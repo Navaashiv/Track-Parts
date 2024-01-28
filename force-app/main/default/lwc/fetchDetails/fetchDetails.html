@@ -1,0 +1,20 @@
+<template>
+    <lightning-card icon-name="standard:account" variant="base">
+        <lightning-input
+            type="search"
+            onchange={handleKeyChange}
+            class="slds-var-m-bottom_small"
+            label="Search"
+            value={searchKey}
+        ></lightning-input>
+        <template if:true={purchase.data}>
+            <template for:each={purchase.data} for:item="pur">
+                <!-- Wrap the content in a clickable element like button -->
+                <button key={pur.Id} onclick={handlePurchaseClick} data-id={pur.Id}>
+                    {pur.Name}
+                </button>
+            </template>
+        </template>
+        <c-fetch-child-details recordselectedid={props}></c-fetch-child-details>
+    </lightning-card>
+</template>

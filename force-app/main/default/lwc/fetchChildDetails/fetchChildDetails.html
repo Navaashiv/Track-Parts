@@ -1,0 +1,29 @@
+<template>
+    <div class="slds-card">
+        <div class="slds-card__body">
+            <lightning-layout multiple-rows>
+                <lightning-layout-item flexibility="auto" size="12" padding="around-small">
+                    <div class="slds-text-heading_medium">{purchaseName}</div>
+                </lightning-layout-item>
+                <lightning-layout-item flexibility="auto" size="6" padding="around-small">
+                    <p class="slds-text-body_regular">Actual Rate: {actualrate}</p>
+                </lightning-layout-item>
+                <lightning-layout-item flexibility="auto" size="6" padding="around-small">
+                    <p class="slds-text-body_regular">Invoice No: {invoiceno}</p>
+                </lightning-layout-item>
+                <lightning-layout-item flexibility="auto" size="12" padding="around-small">
+                    <img src={driveurl} alt="Product Image" class="product-image" />
+                </lightning-layout-item>
+                <lightning-layout-item flexibility="auto" size="6" padding="around-small">
+                    <p class="slds-text-body_regular">Quantity: {quantity}</p>
+                </lightning-layout-item>
+                <lightning-layout-item flexibility="auto" size="6" padding="around-small">
+                    <p class="slds-text-body_regular">Sell Rate: {sellrate}</p>
+                </lightning-layout-item>
+                <lightning-layout-item flexibility="auto" size="12" padding="around-small">
+                    <div class="slds-text-heading_medium">Total Amount Budget: {totalamountbudget}</div>
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </div>
+</template>
